@@ -5,3 +5,4 @@
 Eh why not
 
 ## Python
+  - `python/day1part1.py`  - They're toying with us, this is just list sorting and absolute math
