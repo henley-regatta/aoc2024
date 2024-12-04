@@ -12,3 +12,4 @@ Eh why not
   - `python/day3part1.py`  - A quick refresher course required on python's Regular Expression handling. And let's nest them, why not?
   - `python/day3part2.py`  - If you can do alternatives in RE's and you've caught on to backslash plague, this was a surprisingly easy elaboration
   - `python/day4part1.py`  - This is actually my 2nd (working) attempt; my thought-i'd-been-clever approach of comparing ALL X,S positions is combinatorialy bad. This approach is approx 100x quicker...
+  - `python/day4part2.py`  - Ah yes, this is where that lesson comes in immediately useful. Compare-from-start only is immediately the right approach to a speedy part 2 solution.
