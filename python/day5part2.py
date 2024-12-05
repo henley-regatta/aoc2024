@@ -39,6 +39,11 @@ def failing_instruction(sequence,specifications) :
                     continue # dest wasn't in list, instruction doesn't apply
     return None
 
+# CAUTION: There are no checks here for "loops", either simple or complex,
+# where a set of re-orders undoes the work of previous ones. Fortunately, 
+# for the provided instructions and page data, this doesn't seem to occur, 
+# although the permutation count does suggest there's a fair amount of 
+# back-tracking required to make progress....
 #-----------------------------------------------------------------------
 def reorderToSpec(sequence,specifications) :
     fspec = failing_instruction(sequence,specifications)
@@ -51,7 +56,7 @@ def reorderToSpec(sequence,specifications) :
         #and try again
         sequence[sequence.index(fspec[0])], sequence[sequence.index(fspec[1])] = fspec[1], fspec[0]
         fspec = failing_instruction(sequence,specifications)
-    print(f"{permutations} permutations required to transform {orgseq} -> {sequence}")
+    #print(f"{permutations} permutations required to transform {orgseq} -> {sequence}")
     return sequence
 
 #-----------------------------------------------------------------------
