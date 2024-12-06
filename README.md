@@ -16,3 +16,4 @@ Eh why not
   - `python/day5part1.py`  - The fairly-naieve algorithm appears to be good enough as well as finding the right answer. What horrors await in part two???
   - `python/day5part2.py`  - The horror was trying to be clever against an unproven assumption of global rule consistency, when a simple looping reorder until consistency worked well enough
   - `python/day6part1.py`  - Luvs me 2d arrays. Luvs me simple IF statements. Luvs Iterative solutions. Luvs map updates. Simple as.
+  - `python/day6part2.py`  - Clearly I'm still too brute-force even with optimisations; took 15 minutes after making the obvious optimisations. Right answer, clearly the wrong algorithm...
