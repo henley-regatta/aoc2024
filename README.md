@@ -15,3 +15,4 @@ Eh why not
   - `python/day4part2.py`  - Ah yes, this is where that lesson comes in immediately useful. Compare-from-start only is immediately the right approach to a speedy part 2 solution.
   - `python/day5part1.py`  - The fairly-naieve algorithm appears to be good enough as well as finding the right answer. What horrors await in part two???
   - `python/day5part2.py`  - The horror was trying to be clever against an unproven assumption of global rule consistency, when a simple looping reorder until consistency worked well enough
+  - `python/day6part1.py`  - Luvs me 2d arrays. Luvs me simple IF statements. Luvs Iterative solutions. Luvs map updates. Simple as.
