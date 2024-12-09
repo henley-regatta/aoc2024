@@ -19,3 +19,4 @@ Eh why not
   - `python/day6part2.py`  - Clearly I'm still too brute-force even with optimisations; took 15 minutes after making the obvious optimisations. Right answer, clearly the wrong algorithm...
     - `python/day6part2_threaded.py`  - various optimisations (slow `Enum`? Strings!) but the only one that works is `ProcessPoolExecutor` with n tuned to CPU and reasonable slice size
   - `python/day7part1.py`  - Look, it's a fairly simple permutations problem, and `itertools` is part of the base library so why the hell shouldn't I use it, eh?
+  - `python/day7part2.py`  - Ah the old permutation explosion complication trick. Luckily for me neither the increase in permutations NOR the size of the result required any special handling; brute force gives an acceptable result in less time than day6part2 so hooray and move on
