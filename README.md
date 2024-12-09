@@ -23,3 +23,4 @@ Eh why not
   - `python/day8part1.py`  - Another permutations problem but with some bounds-checking going on. Wasted 20 minutes looking for an off-by-one error which turned out to be input related.
   - `python/day8part2.py`  - OK, just re-permutate the permutations; the map's fairly small so the additional complexity doesn't do much for the O(n) calculations, answer comes out fairly quickly with the force of brute. 
   - `python/day9part1.py`  - Spent more time on trying to visualise and then worrying about sparse datastructures before summing the actual data and finding a simple pre-allocated array would do. After that, brute force mechanistic rules the day again
+  - `python/day9part2.py`  - OK, so some of my simplifying assumptions were too simple, a bit more grind required. Lots of off-by-one and too-soon terminations but going back to basics worked out OK
