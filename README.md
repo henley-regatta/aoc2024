@@ -21,3 +21,4 @@ Eh why not
   - `python/day7part1.py`  - Look, it's a fairly simple permutations problem, and `itertools` is part of the base library so why the hell shouldn't I use it, eh?
   - `python/day7part2.py`  - Ah the old permutation explosion complication trick. Luckily for me neither the increase in permutations NOR the size of the result required any special handling; brute force gives an acceptable result in less time than day6part2 so hooray and move on
   - `python/day8part1.py`  - Another permutations problem but with some bounds-checking going on. Wasted 20 minutes looking for an off-by-one error which turned out to be input related.
+  - `python/day8part2.py`  - OK, just re-permutate the permutations; the map's fairly small so the additional complexity doesn't do much for the O(n) calculations, answer comes out fairly quickly with the force of brute. 
