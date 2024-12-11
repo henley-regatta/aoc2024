@@ -26,3 +26,4 @@ Eh why not
   - `python/day9part2.py`  - OK, so some of my simplifying assumptions were too simple, a bit more grind required. Lots of off-by-one and too-soon terminations but going back to basics worked out OK
   - `python/day10part1.py` - So the algorithm sorts for the number of paths to the summits, not the total summits available so there's a _lot_ of post-processing aggro to dedup to get to the sum of the summits but oh lord it works OK.
   - `python/day10part2.py` - ARGHGHGHGHH, so yes just like the boy I solved part 2 before part 1 and the part 2 solution REMOVES code/complexity from the part one.
+  - `python/day11part1.py` - Before I even read Part 2 I know I've made a simplifying assumption in Part 1 that won't hold. Also, I need to learn better map/list comprehension because I'm writing functions and loops for everything here and this is Not the Python Way
