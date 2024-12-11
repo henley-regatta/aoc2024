@@ -27,3 +27,4 @@ Eh why not
   - `python/day10part1.py` - So the algorithm sorts for the number of paths to the summits, not the total summits available so there's a _lot_ of post-processing aggro to dedup to get to the sum of the summits but oh lord it works OK.
   - `python/day10part2.py` - ARGHGHGHGHH, so yes just like the boy I solved part 2 before part 1 and the part 2 solution REMOVES code/complexity from the part one.
   - `python/day11part1.py` - Before I even read Part 2 I know I've made a simplifying assumption in Part 1 that won't hold. Also, I need to learn better map/list comprehension because I'm writing functions and loops for everything here and this is Not the Python Way
+  - `python/day11part2.py` - GET IN! No, I made the *correct* simplifying assumption in part one (actually tracking stone order _doesn't matter_ just the number of stones). I blame previous year's AoC experience for letting me solve that one. A simple 1-char change to the code and bob's yer uncle
